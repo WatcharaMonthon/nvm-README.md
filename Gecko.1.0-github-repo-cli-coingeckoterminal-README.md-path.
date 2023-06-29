@@ -1,0 +1,867 @@
+# CRMT
+ปรับปรุงบ็อท-33628cdc073f0b26cc24eebb929fc5cb5a504f84-README.md-path
+...
+...{
+...[
+
+ "Hello, World" 
+
+"MY Name's : Watchara"
+
+     ✨• I'm Born in 1981, I have gained valuable experience both academically and professionally.  While I study and work for various organizations  I learned about Machine Learning, Software Engineering, Designer jobs.
+
+ - 🔭 I'm currently working on ...
+
+    ✨ • I am currently working as an investment trader, investor, google developer, and speculator 📈📉
+
+ I have been trading crypto since 2018 and since then have been involved in the financial markets.  Multinational company supply chain
+
+ 
+
+ - 🌱 I'm currently learning ... Node.js, Machine learning ,Meta, Web3 , and Trader. 
+
+    • This role has given me insight into maintaining effective relationships with customers and suppliers. 
+
+      ✨📈📉• Which I believe will help me grow in my current job. 
+
+ 💞️ I'm looking to collaborate on everything!  
+
+} 
+
+"KYC:"
+
+{
+
+   "document" : {"proof": "KYC",
+
+         "additional_proof" : "THAILAND",
+
+         "supported_types" : "passport", ["id_card","driving_license","passport"],
+
+         "name" : { "first_name" : "WATCHARA",
+
+"last_name"  : "MONTHON" },
+
+         "dob" : "[1981-08-28](tel:19810828)",
+
+         "age" : "42",
+
+         "issue_date": "[2022-12-20](tel:20221220)", 
+
+         "expiry_date" : "[2027-19-12](tel:20271912)",
+
+         "gender":  "M",
+
+"document_number": "AD0505145", "allow_offline"        : "1", "fetch_enhanced_data"  : "1",  "backside_proof_required" : "0", "show_ocr_form" : "1" 
+
+     }
+
+} 
+
+#Coingeckoterminal
+
+ Gecko.1.0 
+
+ Coingeckoterminal API SETTING:  
+
+  #networks: 
+
+ networks 
+
+GET:  /networks Get list of supported networks 
+
+ Parameters : 
+
+ curl -X 'GET' \
+
+  'https://api.geckoterminal.com/api/v2/networks?page=1' \
+
+  -H 'accept: application/json' 
+
+  Responses: 
+
+Curl: 
+
+  curl -X 'GET' \
+
+  'https://api.geckoterminal.com/api/v2/networks?page=1' \
+
+  -H 'accept: application/json' 
+
+ Request URL: 
+
+ https://api.geckoterminal.com/api/v2/networks?page=1 
+
+ Server response: 
+
+   Code: 200                  Details: 
+
+ 	
+
+Response body : 
+
+ {
+
+  "data": [
+
+    {
+
+      "id": "eth",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Ethereum",
+
+        "coingecko_asset_platform_id": "ethereum"
+
+      }
+
+    },
+
+    {
+
+      "id": "bsc",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "BNB Chain",
+
+        "coingecko_asset_platform_id": "binance-smart-chain"
+
+      }
+
+    },
+
+    {
+
+      "id": "polygon_pos",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Polygon POS",
+
+        "coingecko_asset_platform_id": "polygon-pos"
+
+      }
+
+    },
+
+    {
+
+      "id": "avax",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Avalanche",
+
+        "coingecko_asset_platform_id": "avalanche"
+
+      }
+
+    },
+
+    {
+
+      "id": "movr",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Moonriver",
+
+        "coingecko_asset_platform_id": "moonriver"
+
+      }
+
+    },
+
+    {
+
+      "id": "cro",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Cronos",
+
+        "coingecko_asset_platform_id": "cronos"
+
+      }
+
+    },
+
+    {
+
+      "id": "one",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Harmony",
+
+        "coingecko_asset_platform_id": "harmony-shard-0"
+
+      }
+
+    },
+
+    {
+
+      "id": "boba",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Boba Network",
+
+        "coingecko_asset_platform_id": "boba"
+
+      }
+
+    },
+
+    {
+
+      "id": "ftm",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Fantom",
+
+        "coingecko_asset_platform_id": "fantom"
+
+      }
+
+    },
+
+    {
+
+      "id": "bch",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "SmartBCH",
+
+        "coingecko_asset_platform_id": "smartbch"
+
+      }
+
+    },
+
+    {
+
+      "id": "aurora",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Aurora",
+
+        "coingecko_asset_platform_id": "aurora"
+
+      }
+
+    },
+
+    {
+
+      "id": "metis",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Metis",
+
+        "coingecko_asset_platform_id": "metis-andromeda"
+
+      }
+
+    },
+
+    {
+
+      "id": "arbitrum",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Arbitrum",
+
+        "coingecko_asset_platform_id": "arbitrum-one"
+
+      }
+
+    },
+
+    {
+
+      "id": "fuse",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Fuse",
+
+        "coingecko_asset_platform_id": "fuse"
+
+      }
+
+    },
+
+    {
+
+      "id": "okexchain",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "OKExChain",
+
+        "coingecko_asset_platform_id": "okex-chain"
+
+      }
+
+    },
+
+    {
+
+      "id": "kcc",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Kucoin Community Chain",
+
+        "coingecko_asset_platform_id": "kucoin-community-chain"
+
+      }
+
+    },
+
+    {
+
+      "id": "iotx",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "IOTEX",
+
+        "coingecko_asset_platform_id": "iotex"
+
+      }
+
+    },
+
+    {
+
+      "id": "celo",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "CELO",
+
+        "coingecko_asset_platform_id": "celo"
+
+      }
+
+    },
+
+    {
+
+      "id": "xdai",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Gnosis XDAI",
+
+        "coingecko_asset_platform_id": "xdai"
+
+      }
+
+    },
+
+    {
+
+      "id": "heco",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Huobi ECO Chain",
+
+        "coingecko_asset_platform_id": "huobi-token"
+
+      }
+
+    },
+
+    {
+
+      "id": "glmr",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Moonbeam",
+
+        "coingecko_asset_platform_id": "moonbeam"
+
+      }
+
+    },
+
+    {
+
+      "id": "optimism",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Optimism",
+
+        "coingecko_asset_platform_id": "optimistic-ethereum"
+
+      }
+
+    },
+
+    {
+
+      "id": "nrg",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Energi",
+
+        "coingecko_asset_platform_id": "energi"
+
+      }
+
+    },
+
+    {
+
+      "id": "hsc",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Hoo Smart Chain",
+
+        "coingecko_asset_platform_id": "hoo-smart-chain"
+
+      }
+
+    },
+
+    {
+
+      "id": "wan",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Wanchain",
+
+        "coingecko_asset_platform_id": "wanchain"
+
+      }
+
+    },
+
+    {
+
+      "id": "ronin",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Ronin",
+
+        "coingecko_asset_platform_id": "ronin"
+
+      }
+
+    },
+
+    {
+
+      "id": "kai",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Kardiachain",
+
+        "coingecko_asset_platform_id": "kardiachain"
+
+      }
+
+    },
+
+    {
+
+      "id": "mtr",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Meter",
+
+        "coingecko_asset_platform_id": "meter"
+
+      }
+
+    },
+
+    {
+
+      "id": "velas",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Velas",
+
+        "coingecko_asset_platform_id": "velas"
+
+      }
+
+    },
+
+    {
+
+      "id": "sdn",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Shiden",
+
+        "coingecko_asset_platform_id": "shiden network"
+
+      }
+
+    },
+
+    {
+
+      "id": "tlos",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Telos",
+
+        "coingecko_asset_platform_id": "telos"
+
+      }
+
+    },
+
+    {
+
+      "id": "sys",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Syscoin",
+
+        "coingecko_asset_platform_id": "syscoin"
+
+      }
+
+    },
+
+    {
+
+      "id": "terra",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Terra Classic",
+
+        "coingecko_asset_platform_id": "terra"
+
+      }
+
+    },
+
+    {
+
+      "id": "oasis",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Oasis Emerald",
+
+        "coingecko_asset_platform_id": "oasis"
+
+      }
+
+    },
+
+    {
+
+      "id": "astr",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Astar",
+
+        "coingecko_asset_platform_id": "astar"
+
+      }
+
+    },
+
+    {
+
+      "id": "ela",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Elastos",
+
+        "coingecko_asset_platform_id": "elastos"
+
+      }
+
+    },
+
+    {
+
+      "id": "milkada",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Milkomeda Cardano",
+
+        "coingecko_asset_platform_id": "milkomeda-cardano"
+
+      }
+
+    },
+
+    {
+
+      "id": "dfk",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "DFK Chain",
+
+        "coingecko_asset_platform_id": "defi-kingdoms-blockchain"
+
+      }
+
+    },
+
+    {
+
+      "id": "evmos",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Evmos",
+
+        "coingecko_asset_platform_id": "evmos"
+
+      }
+
+    },
+
+    {
+
+      "id": "solana",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Solana",
+
+        "coingecko_asset_platform_id": "solana"
+
+      }
+
+    },
+
+    {
+
+      "id": "cfx",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Conflux",
+
+        "coingecko_asset_platform_id": "conflux"
+
+      }
+
+    },
+
+    {
+
+      "id": "bttc",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "BitTorrent",
+
+        "coingecko_asset_platform_id": "bittorrent"
+
+      }
+
+    },
+
+    {
+
+      "id": "sxn",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "SX Network",
+
+        "coingecko_asset_platform_id": "sx-network"
+
+      }
+
+    },
+
+    {
+
+      "id": "xdc",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "XDC",
+
+        "coingecko_asset_platform_id": "xdc-network"
+
+      }
+
+    },
+
+    {
+
+      "id": "cube_network",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "CUBE Network",
+
+        "coingecko_asset_platform_id": "cube"
+
+      }
+
+    },
+
+    {
+
+      "id": "klaytn",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Klaytn",
+
+        "coingecko_asset_platform_id": "klay-token"
+
+      }
+
+    },
+
+    {
+
+      "id": "kava",
+
+      "type": "network",
+
+      "attributes": {
+
+        "name": "Kava",
+
+        "coingecko_asset_platform_id": "kava"
+
+      }
+
+    },]
+...} 
+
+
+    {
+
+      "id": "bitgert",
+
+      "type": "network",
+
+      

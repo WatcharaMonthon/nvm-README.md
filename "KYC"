@@ -1,0 +1,22 @@
+{..."KYC:"
+
+{
+   "document" : {"proof": "KYC",
+         "additional_proof" : "THAILAND",
+         "supported_types" : "passport", ["id_card","driving_license","passport"],
+         "name" : { "first_name" : "WATCHARA",
+"last_name"  : "MONTHON" },
+         "dob" : "1981-08-28",
+         "age" : "42",
+         "issue_date": "2022-12-20", 
+         "expiry_date" : "2027-19-12",
+         "gender":  "M",
+"document_number": "AD0505145", "allow_offline"        : "1", "fetch_enhanced_data"  : "1",  "backside_proof_required" : "0", "show_ocr_form" : "1" 
+     }
+} 
+ 
+
+
+  creativecommons.org:   
+ , [  <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. 
+ -->  ] ,}  
