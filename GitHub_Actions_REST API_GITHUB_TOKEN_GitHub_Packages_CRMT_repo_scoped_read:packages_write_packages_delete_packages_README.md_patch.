@@ -1,0 +1,75 @@
+# CRMT
+สาธิตบ็อท-33628cdc073f0b26cc24eebb929fc5cb5a504f84-README.md-path
+GitHub_Actions_REST API_GITHUB_TOKEN_GitHub_Packages_CRMT_repo_scoped_read:packages_write_packages_delete_packages_README.md_patch.
+
+
+   " การลบและการกู้คืนแพ็คเกจ " 
+
+ "GitHubเขียน": delete:packages 
+
+หากต้องการดาวน์โหลดและติดตั้งแพ็กเกจจากที่เก็บ โทเค็นการเข้าถึงส่วนบุคคลของคุณ (คลาสสิก) ต้องมีขอบเขต read:packages และบัญชีผู้ใช้ของคุณต้องมีสิทธิ์ในการอ่าน
+ในการลบแพ็คเกจบน GitHub โทเค็นการเข้าถึงส่วนบุคคลของคุณ (คลาสสิก) อย่างน้อยต้องมีdelete:packagesและ read:packages ขอบเขต ขอบเขตrepoยังจำเป็นสำหรับแพ็คเกจ repo-scoped สำหรับข้อมูลเพิ่มเติม โปรดดูที่ " การลบและการกู้คืนแพ็คเกจ "
+ขอบเขต	คำอธิบาย	ต้องได้รับอนุญาต
+read:packages	ดาวน์โหลดและติดตั้งแพ็คเกจจาก GitHub Packages	อ่าน
+write:packages	อัปโหลดและเผยแพร่แพ็คเกจไปยังแพ็คเกจ GitHub	เขียน
+delete:packages	ลบแพ็คเกจออกจากแพ็คเกจ GitHub	ผู้ดูแลระบบ
+repo	อัปโหลดและลบแพ็คเกจ (พร้อมกับ write:packages, หรือdelete:packages)	เขียนหรือผู้ดูแลระบบ
+หมายเหตุ:ความสามารถของเวิร์กโฟลว์ GitHub Actions ในการลบและกู้คืนแพ็คเกจโดยใช้ REST API นั้นอยู่ในรุ่นเบต้าสาธารณะและอาจมีการเปลี่ยนแปลง
+
+เมื่อคุณสร้างเวิร์กโฟลว์ GitHub Actions คุณสามารถใช้ GITHUB_TOKENเพื่อเผยแพร่ ติดตั้ง ลบ และกู้คืนแพ็คเกจในแพ็คเกจ GitHub โดยไม่จำเป็นต้องจัดเก็บและจัดการโทเค็นการเข้าถึงส่วนบุคคล  
+
+ #1. 
+
+  ข้อมูลเมตาสำหรับไฟล์เวิร์กโฟลว์ชื่อ : 
+
+  "Metadata_for_workflow_files" 
+  
+  "watchara24monthon" 
+ Github-WATCHARA24MONTHON-organization-ci.yml.json.README.md-patch   
+ [Github-WATCHARA24MONTHON-organization-ci.properties.json.actions/labeler@v4.0.3-patch.] 
+  
+     ชื่อไฟล์ : example-icon.-actions/labeler@v4.0.3 -README.md-WATCHARA24MONTHON ถูกอ้างอิงเป็น:  example-icon.   
+ 
+ ชื่อไฟล์ :  example-icon.WATCHARA24MONTHON    ถูกอ้างอิงเป็น:  example-icon. 
+ 
+ 
+  "Metadata_for_workflow_files" , 
+
+  Workflow_file_name: WATCHARA24MONTHON-organization-ci.yml.json
+ { "name": "WATCHARA24MONTHON Organization Workflow",
+     "description": "WATCHARA24MONTHON Organization CI starter workflow.",
+     "iconName": "example-icon",
+     "categories": [ "Go" ],
+     "filePatterns": ["package.json$", "^Dockerfile", ".*\\.md$" ] }  
+
+
+ #2.  
+
+ "Metadata_for_workflow_files" 
+
+   "Klp2gtb" 
+
+    ชื่อไฟล์ : example-icon.-actions/labeler@v4.0.3 -README.md-Klp2gtb 
+ถูกอ้างอิงเป็น: example-icon.  
+
+  
+ ชื่อไฟล์ : example-Klp2gtb 
+ถูกอ้างอิงเป็น: example-icon 
+
+ ข้อมูลเมตาสำหรับไฟล์เวิร์กโฟลว์ชื่อ : 
+ Github-Klp2gtb-organization-ci.yml.json.README.md-patch   
+ [Github-Klp2gtb-organization-ci.properties.json.actions/labeler@v4.0.3-patch.]  
+
+{ "name": "Klp2gtb Organization  Workflow",
+    "description": "Klp2gtb Organization CI starter workflow.",
+    "iconName": "example-icon",
+    "categories": [ "Go" ],
+    "filePatterns": ["package.json$", "^Dockerfile", ".*\\.md$" ] } 
+
+
+  License: CREATIVE COMMONS 
+
+     <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. 
+ -->  
+ ยกเว้นที่ระบุไว้เป็นอย่างอื่น เนื้อหาของหน้านี้ได้รับอนุญาตภายใต้สัญญาอนุญาต Creative Commons Attribution 4.0และตัวอย่างโค้ดได้รับอนุญาตภายใต้สัญญาอนุญาต Apache 2.0 สำหรับรายละเอียด โปรดดูที่นโยบายไซต์ของ Google Developers Java เป็นเครื่องหมายการค้าจดทะเบียนของ Oracle และ/หรือบริษัทในเครือ 
+
